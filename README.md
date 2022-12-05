@@ -14,3 +14,5 @@ Put the following text in front of the link <br>
 ?link=SITE <br></h4>
 <h4>And instead of the word SITE, enter the address of your site along with https:// <br>
 Example : https://Domain.com/file.php?link=https://site-filter.com</h4>
+
+<h4>This only brings the HTML of the site and it depends on the person who wrote the site to bring the CSS or not</h4>
