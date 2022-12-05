@@ -8,9 +8,9 @@ $site = $_GET['link'];
 echo file_get_contents("$site");
 </code>
 
-<h4>Then upload the file on your host/server</h4>
+<h4>Then upload the file on your host/server<br>
 
-<h4>Put the following text in front of the link <br></h4>
-<h4>?link=SITE <br></h4>
+Put the following text in front of the link <br>
+?link=SITE <br></h4>
 <h4>And instead of the word SITE, enter the address of your site along with https:// <br>
 Example : https://Domain.com/file.php?link=https://site-filter.com</h4>
