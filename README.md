@@ -3,10 +3,10 @@ Access to filter sites with your host/server IP
 
 First, put the following code in a PHP file
 
-<?php
+<code><?php
 $site = $_GET['link'];
 echo file_get_contents("$site");
-?>
+?></code>
 
 Then upload the file on your host/server
 
