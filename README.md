@@ -10,6 +10,7 @@ echo file_get_contents("$site");
 
 Then upload the file on your host/server
 
-Put the following text in front of the link
-?link=SITE
-And instead of the word SITE, enter the address of your site along with https://
+Put the following text in front of the link <br>
+?link=SITE <br>
+And instead of the word SITE, enter the address of your site along with https:// <br>
+Example : https://Domain.me.com/file.php?link=https://telegram.org
