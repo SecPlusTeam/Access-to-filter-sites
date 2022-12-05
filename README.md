@@ -1,4 +1,6 @@
 # Access to filter sites
 Access to filter sites with your host/server IP 
 
-<code><?php<br><br>$site = $_GET['link'];<br><br>echo file_get_contents("$site");</code>
+<code><?php</code>
+<code>$site = $_GET['link'];</code>
+<code>echo file_get_contents("$site");</code>
