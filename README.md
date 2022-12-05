@@ -6,7 +6,7 @@ First, put the following code in a PHP file
 <code><?php
 $site = $_GET['link'];
 echo file_get_contents("$site");
-?></code>
+</code>
 
 Then upload the file on your host/server
 
