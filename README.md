@@ -1,16 +1,16 @@
 # Access to filter sites
-Access to filter sites with your host/server IP 
+<h2>Access to filter sites with your host/server IP</h2>
 
-First, put the following code in a PHP file
+<h4>First, put the following code in a PHP file</h4>
 
 <code><?php
 $site = $_GET['link'];
 echo file_get_contents("$site");
 </code>
 
-Then upload the file on your host/server
+<h4>Then upload the file on your host/server</h4>
 
-Put the following text in front of the link <br>
-?link=SITE <br>
-And instead of the word SITE, enter the address of your site along with https:// <br>
-Example : https://Domain.me.com/file.php?link=https://telegram.org
+<h4>Put the following text in front of the link <br></h4>
+<h4>?link=SITE <br></h4>
+<h4>And instead of the word SITE, enter the address of your site along with https:// <br>
+Example : https://Domain.com/file.php?link=https://site-filter.com</h4>
