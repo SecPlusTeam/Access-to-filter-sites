@@ -2,11 +2,10 @@
 <h2>Access to filter sites with your host/server IP</h2>
 
 <h4>First, put the following code in a PHP file</h4>
-```
-<?php
+
+<code><?php
 $site = $_GET['link'];
-echo file_get_contents("$site");
-```
+echo file_get_contents("$site");</code>
 
 <h4>Then upload the file on your host/server<br>
 
